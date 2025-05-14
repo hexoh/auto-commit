@@ -19,6 +19,13 @@ jobs:
         with:
          persist-credentials: false
          fetch-depth: 0
+         clean: true
+      
+      - name: Pull latest changes
+        run: |
+          git config --local user.email "allenxiaohu@gmail.com"
+          git config --local user.name "hexoh"
+          git pull origin master --rebase  # 用 rebase 保持线性历史
 
       - name: Modify last update
         run: |
@@ -27,8 +34,6 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "allenxiaohu@gmail.com"
-          git config --local user.name "hexoh"
           git add -A
           
           arr[0]="chore(bot): 😂 auto commit"
@@ -51,3 +56,4 @@ jobs:
         with:
           directory: "."
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
