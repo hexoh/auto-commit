@@ -35,10 +35,14 @@ Or just do in the manual way:
 
 ## Consider to Support
 
+<!--
 - 👉 🇮🇩 [Trakteer](https://trakteer.id/mazipan?utm_source=github)
 - 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/mazipan?utm_source=github)
-- 👉 🌍 [Paypal](https://www.paypal.me/mazipan?utm_source=github)
+-->
+- 👉 🌍 [Paypal](https://www.paypal.me/hexiaohu?utm_source=github)
+<!--
 - 👉 🌍 [Ko-Fi](https://ko-fi.com/mazipan)
+-->
 
 ---
 
